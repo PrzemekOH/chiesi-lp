@@ -1,0 +1,40 @@
+.mission {
+	background: linear-gradient(90deg, rgba(172, 32, 104, 1) 0%, rgba(226, 12, 131, 1) 50%, rgba(175, 0, 97, 1) 100%);
+
+	&__copy {
+		max-width: 1100px;
+		margin: auto;
+		padding: 4rem 1rem;
+		text-align: center;
+		color: #fff;
+
+		&-title {
+			margin-bottom: 1.25rem;
+			font-size: 24px;
+			font-weight: 300;
+			text-transform: uppercase;
+		}
+		&-description {
+			font-size: 32px;
+			line-height: 40px;
+		}
+	}
+}
+
+@media (min-width: 640px) {
+	.mission {
+		&__copy {
+			padding: 8rem 1rem;
+			&-description {
+				font-size: 40px;
+				line-height: 48px;
+			}
+		}
+	}
+}
+
+@media (min-width: 1366px) {
+	.mission {
+		margin-top: -5rem;
+	}
+}
